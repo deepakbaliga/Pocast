@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="intro_logo_size">180dp</dimen>
+    <dimen name="intro_logo_top">60dp</dimen>
+    <dimen name="intro_logo_top_more">100dp</dimen>
+    <dimen name="intro_logo_bottom">20dp</dimen>
+
+    <dimen name="intro_title_text_size">36sp</dimen>
+    <dimen name="intro_subtitle_text_size">18sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_list_margin">200dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="profile_picture_size">76dp</dimen>
+    <dimen name="profile_name_size">18sp</dimen>
+
+    <dimen name="profile_email_size">14sp</dimen>
+
+
+    <dimen name="nav_list_icon">24dp</dimen>
+    <dimen name="nav_list_text_size">20sp</dimen>
+    <dimen name="nav_list_highlight_width">3dp</dimen>
+    <dimen name="nav_list_highlight_height">48dp</dimen>
+
+    <dimen name="category_text_size">18sp</dimen>
+</resources>

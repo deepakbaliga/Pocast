@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pocastviolet"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/imageview_intrologo"
+        android:layout_width="@dimen/intro_logo_size"
+        android:layout_height="@dimen/intro_logo_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/intro_logo_bottom"
+        android:layout_marginTop="@dimen/intro_logo_top_more"
+        android:src="@drawable/offline"
+        />
+
+    <TextView
+        android:id="@+id/textview_intro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview_intrologo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/offline"
+        android:textColor="@color/white"
+        android:textSize="@dimen/intro_title_text_size" />
+
+    <TextView
+        android:id="@+id/textview_intro_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_intro_title"
+        android:layout_centerHorizontal="true"
+        android:text="@string/offline_subtext"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/intro_subtitle_text_size" />
+
+
+
+
+
+</RelativeLayout>

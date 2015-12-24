@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro.ActivityIntro">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp">
+
+        <com.davidpacioianu.inkpageindicator.InkPageIndicator
+            android:id="@+id/inkpageindicator_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:dotDiameter="16dp"
+            app:dotGap="16dp"
+            app:animationDuration="320"
+            app:pageIndicatorColor="@color/pocastblue"
+            app:currentPageIndicatorColor="@color/white"/>
+    </FrameLayout>
+
+</RelativeLayout>

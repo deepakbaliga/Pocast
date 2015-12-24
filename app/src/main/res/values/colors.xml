@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/pocastviolet</color>
+    <color name="colorPrimaryDark">@color/pocastviolet</color>
+    <color name="colorAccent">@color/pocastblue</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="pocastviolet">#7454C5</color>
+    <color name="pocastblue">#70d0ff</color>
+    <color name="pocastgrey">#9e9e9e</color>
+    <color name="pocastgrey_nav_drawer">#FAFAFA</color>
+
+</resources>
